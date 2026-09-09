@@ -1,0 +1,26 @@
+Exercise 1 — Variables, types, and f-strings
+
+store = “Sarahs Store”
+date = “09-08-2026”
+revenue = 6000.20
+print(f”My store is {store}, today’s date is {date} and today’s revenue is {revenue:,.2f}.”
+
+
+Exercise 2 — Conditional sales report
+
+units_sold = 82
+if units_sold > 151:
+print (“strong sales day”)
+elif units_sold <= 75
+print (“slow sales day”)
+else: 
+print (“average sales day”)
+
+
+Exercise 3 — Loop through a week of sales
+
+week_revenue = [4521.75, 3980.10, 5102.00, 2870.50, 6023.25, 7110.90, 3340.00]
+total_revenue = sum(week_revenue)
+average_revenue = total_revenue / Len(week_revenue)
+print(f"Total revenue for the week is: ${total_revenue:,.2f}")
+print(f"Average daily revenue for the week is: ${average_revenue:,.2f}")
